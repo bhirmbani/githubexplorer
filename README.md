@@ -1,11 +1,12 @@
-# next-template
+# Github Explorer
 
-A Next.js 13 template for building apps with Radix UI and Tailwind CSS.
+A Next.js 13 app router that demonstrate the use of Github graphlQL API to fetch github user's repository by its username. Bootstrapped with [shadcn/ui](https://ui.shadcn.com/docs/installation).
 
 ## Usage
 
 ```bash
-npx create-next-app -e https://github.com/shadcn/next-template
+npm install
+npm run dev
 ```
 
 ## Features
@@ -16,6 +17,9 @@ npx create-next-app -e https://github.com/shadcn/next-template
 - Icons from [Lucide](https://lucide.dev)
 - Dark mode with `next-themes`
 - Tailwind CSS class sorting, merging and linting.
+- Typescript
+- Swr for fetching and managing server state
+- React hook form for managing form state
 
 ## License
 
